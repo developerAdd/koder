@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.min.css?_v=20221004235157">
+   <title>Личный кабинет</title>
+</head>
+
+<body>
+   <div class="page userHL">
+      <header class="header">
+   <div class="header__content">
+      <div class="header__content__top">
+         <a href="index.html" class="header__content__top__logo">
+            <img src="images/logo.svg" alt="logo" class="block-img">
+         </a>
+         <div class="header__content__top__user">
+            <a href="user.html" class="header__content__top__user__logo">
+               <img src="images/user.svg" alt="user" class="block-img">
+            </a>
+            <div class="header__content__top__user__text">
+               <a href="#signup" class="header__content__top__user__text-signup popup__link">Регистрация / </a>
+               <a href="#signin" class="header__content__top__user__text-signin popup__link">Войти</a>
+            </div>
+         </div>
+      </div>
+      <div class="header__mobile__bottom">
+         <a href="#menu" class="burger popup__link">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+         </a>
+         <button type="button" class="header__mobile__bottom__button help__fix">онлайн консультация</button>
+      </div>
+      <div id="menu" class="header__content__bottom popup">
+         <nav class="header__nav popup__body">
+            <div class="remove__header__menu close__popup">
+               <span class="remove__header__menu__line"></span>
+               <span class="remove__header__menu__line"></span>
+            </div>
+            <ul class="header__nav__list popup__content">
+               <li class="header__nav__list__item">
+                  <a href="about.html" class="nav__link">О бренде</a>
+               </li>
+               <li class="header__nav__list__item item-catalog">
+                  <a href="science.html" class="nav__link link__catalog">Наука и красота</a>
+                  <ul class="nav__link__list">
+                     <li class="nav__link__list__item">
+                        <a href="science.html#science_1" class="nav__link__list__item__link">Производство</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="science.html#science_2" class="nav__link__list__item__link">наши рецептуры</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="science.html#science_3" class="nav__link__list__item__link">Эффективность</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="science.html#science_4" class="nav__link__list__item__link">Сертификаты</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="science.html#science_5" class="nav__link__list__item__link">научные статьи</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="science.html#science_6" class="nav__link__list__item__link">наши новости</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="header__nav__list__item item-catalog">
+                  <a href="catalog.html" class="nav__link link__catalog">Каталог</a>
+                  <ul class="nav__link__list">
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">демакияж</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">очищение</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">тонизирование</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">пилинги</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">базовые крема</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">сыворотки</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">маски</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">кремы для лица</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">для контура глаз</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">гели</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">жидкие альгинаты</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="catalog.html" class="nav__link__list__item__link">масла</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="header__nav__list__item item-catalog">
+                  <a href="profession.html" class="nav__link link__catalog">Профессионалам</a>
+                  <ul class="nav__link__list">
+                     <li class="nav__link__list__item">
+                        <a href="profession.html#profession_1" class="nav__link__list__item__link">Обучение</a>
+                     </li>
+                     <li class="nav__link__list__item">
+                        <a href="profession.html#profession_2" class="nav__link__list__item__link">акции и скидки</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="header__nav__list__item">
+                  <a href="contact.html" class="nav__link">Контакты</a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </div>
+</header>
+      <sectioin class="usertop form__usertop">
+   <div class="usertop__content">
+      <div class="usertop__content__left">
+         <div class="usertop__content__left__avatar">
+            <picture><source srcset="images/document.webp" type="image/webp"><img src="images/document.png" alt="user" class="usertop__avatar-img"></picture>
+         </div>
+      </div>
+      <div class="usertop__content__center">
+         <div class="usertop__content__center__name">
+            <div class="usertop__content__center__name__block">
+               <span class="usertop__content__center__name__top">Екатерина ИВАНОВА</span>
+               <span class="usertop__content__center__name__bottom">Врач и косметолог</span>
+            </div>
+         </div>
+         <div class="form__usertop-form">
+            <div class="name__container">
+               <span class="name__container__text">ИМЯ</span>
+               <div class="input__conteiner">
+                  <input type="text" class="input" placeholder="Ваше имя" value="ЕКАТЕРИНА">
+               </div>
+            </div>
+            <div class="name__container">
+               <span class="name__container__text">ФАМИЛИЯ</span>
+               <div class="input__conteiner">
+                  <input type="text" class="input" placeholder="Ваша фамилия" value="ИВАНОВА">
+               </div>
+            </div>
+            <div class="name__container">
+               <span class="name__container__text">ЛОГИН</span>
+               <div class="input__conteiner">
+                  <input type="text" class="input" placeholder="Ваш логин" value="ЕКАТЕРИНА6">
+               </div>
+            </div>
+            <div class="name__container">
+               <span class="name__container__text">ПАРОЛЬ</span>
+               <div class="input__conteiner">
+                  <input type="password" class="input" placeholder="Ваш пароль" value="1234567">
+               </div>
+            </div>
+            <div class="name__container">
+               <span class="name__container__text">ПОВТОР ПАРОЛЯ</span>
+               <div class="input__conteiner">
+                  <input type="password" class="input" placeholder="Повторите ваш пароль" value="1234567">
+               </div>
+            </div>
+            <div class="name__container">
+               <span class="name__container__text">E-MAIL</span>
+               <div class="input__conteiner">
+                  <input type="email" class="input" placeholder="Ваш e-mail" value="ivanova@bk.ru">
+               </div>
+            </div>
+            <button class="form__usertop-form__button">сохранить изменения</button>
+         </div>
+      </div>
+   </div>
+</sectioin>
+      <footer class="footer">
+   <ul class="footer__top">
+      <li class="footer__top__item">
+         <a class="footer__top__item__link" href="tel:88005554248">8 (800) 555-42-48</a>
+      </li>
+      <li class="footer__top__item">
+         <a href="#" class="footer__top__item__logo">
+            <svg width="35" height="35" viewBox="0 0 35 35" class="block-img" fill="none"
+               xmlns="http://www.w3.org/2000/svg">
+               <g filter="url(#filter0_d_602_1407)">
+                  <path
+                     d="M4.19995 26.9548C4.89995 24.9548 5.39994 23.2547 5.99994 21.6547C6.39994 20.6547 6.39996 19.7547 5.89996 18.6547C2.79996 11.8547 6.19991 3.95489 13.0999 1.55489C20.0999 -0.945114 27.8 3.05484 29.7 10.2548C31 15.2548 29.6 19.5548 25.9 22.9548C22.1 26.3548 17.5999 27.0548 12.7999 25.2548C11.6999 24.8548 10.8 24.7547 9.69995 25.1547C7.99995 25.8547 6.29995 26.2548 4.19995 26.9548ZM7.69995 23.2548C8.49995 23.1548 8.79991 23.0548 9.09991 22.9548C10.6999 22.2548 12.0999 22.3547 13.7999 23.1547C18.1999 25.0547 23.3999 23.3548 26.0999 19.2548C28.6999 15.2548 28.2999 9.95479 24.9999 6.45479C21.5999 2.85479 16.2999 2.15474 12.0999 4.65474C7.99991 7.15474 5.99995 12.1547 7.69995 16.6547C8.49995 18.8547 9.39995 20.8548 7.69995 23.2548Z"
+                     fill="#292F3E" />
+               </g>
+               <g filter="url(#filter1_d_602_1407)">
+                  <path
+                     d="M14.1 12.555C15.6 13.855 16.8 15.0548 18.1 16.1548C18.7 16.7548 19.3 16.555 19.9 15.855C20.3 15.455 21.1 15.0549 21.4 15.2549C22.4 15.6549 23.4 16.255 23.9 17.055C24.1 17.355 23.2 18.7549 22.6 19.2549C21.9 19.7549 20.7 19.8548 19.9 19.6548C15.8 18.6548 13 15.855 11.4 12.055C10.8 10.555 10.9 9.05501 12 7.85501C13 6.75501 14.2 6.95501 14.8 8.35501C15.4 9.75501 16.3 11.155 14.1 12.555Z"
+                     fill="#292F3E" />
+               </g>
+               <defs>
+                  <filter id="filter0_d_602_1407" x="0.199951" y="0.80835" width="33.9751" height="34.1465"
+                     filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                     <feOffset dy="4" />
+                     <feGaussianBlur stdDeviation="2" />
+                     <feComposite in2="hardAlpha" operator="out" />
+                     <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_602_1407" />
+                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_602_1407" result="shape" />
+                  </filter>
+                  <filter id="filter1_d_602_1407" x="7.03516" y="7.14917" width="20.8933" height="20.6023"
+                     filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                     <feOffset dy="4" />
+                     <feGaussianBlur stdDeviation="2" />
+                     <feComposite in2="hardAlpha" operator="out" />
+                     <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_602_1407" />
+                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_602_1407" result="shape" />
+                  </filter>
+               </defs>
+            </svg>
+         </a>
+      </li>
+      <li class="footer__top__item">
+         <a class="footer__top__item__link" href="#">info@kodermix.ru</a>
+      </li>
+   </ul>
+   <div class="footer__center">
+      <ul class="footer__cente__list">
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">О бренде</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Пресс-центр</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Сертификаты</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Контакты т реквизиты</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Публичная оферта</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Политика конфеденциальности</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Видеообзоры</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Отзыввы</a>
+         </li>
+      </ul>
+      <ul class="footer__cente__list">
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Наука и красота</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Текст заголовка раздела страницы</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Текст заголовка раздела страницы</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Текст заголовка раздела страницы</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Профессионалам</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Текст заголовка раздела страницы</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Текст заголовка раздела страницы</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Текст заголовка раздела страницы</a>
+         </li>
+      </ul>
+      <ul class="footer__cente__list">
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Каталог</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Демакияж</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Очищение</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Тонизирование</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Пилинги</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Сыворотки</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Маски</a>
+         </li>
+      </ul>
+      <ul class="footer__cente__list">
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">ДКремы для лица</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Кремы для контура глаз</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Гели</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Жидкие альгинаты</a>
+         </li>
+         <li class="footer__cente__list__item">
+            <a href="#" class="footer__cente__list__item__link">Базовые основы<br>Масла</a>
+         </li>
+      </ul>
+   </div>
+   <div class="footer__bottom">
+      <span class="footer__bottom__item">Все права защищены 2022 ©</span>
+      <div class="footer__bottom__item__logotypes">
+         <a href="#" class="footer__logo">
+            <svg width="28" height="23" class="block-img" viewBox="0 0 28 23" fill="none"
+               xmlns="http://www.w3.org/2000/svg">
+               <path
+                  d="M27.3999 1.55477C26.8999 3.75477 26.4999 6.15477 25.9999 8.55477C25.1999 12.6548 24.3999 16.755 23.4999 20.755C23.0999 22.955 22.1999 23.2548 20.3999 22.0548C18.7999 20.9548 17.1998 19.7548 15.6998 18.5548C14.9998 17.9548 14.4999 18.055 13.8999 18.755C13.3999 19.355 12.7998 19.8552 12.1998 20.4552C10.4998 22.0552 9.99983 21.8549 9.19983 19.6549C8.59983 17.9549 7.99985 16.3549 7.59985 14.6549C7.29985 13.6549 6.79993 13.1552 5.79993 12.9552C4.49993 12.6552 3.1999 12.255 1.8999 11.755C1.2999 11.555 0.899902 10.9548 0.399902 10.5548C0.899902 10.1548 1.2999 9.45496 1.8999 9.25496C5.8999 7.65496 9.99988 6.15486 13.9999 4.65486C17.7999 3.25486 21.4999 1.75516 25.2999 0.455156C26.7999 -0.344844 27.3999 0.0547658 27.3999 1.55477ZM22.3999 4.45516C22.2999 4.35516 22.2998 4.25486 22.1998 4.15486C17.5998 7.05486 12.9999 9.95506 8.3999 12.8551C9.0999 14.8551 9.69993 16.7549 10.2999 18.6549C10.5999 18.0549 10.6998 17.5548 10.6998 17.0548C10.6998 15.5548 11.2999 14.3551 12.4999 13.3551C15.8999 10.4551 19.0999 7.45516 22.3999 4.45516Z"
+                  fill="#292F3E" />
+            </svg>
+         </a>
+         <a href="#" class="footer__logo">
+            <svg width="18" class="block-img" height="29" viewBox="0 0 18 29" fill="none"
+               xmlns="http://www.w3.org/2000/svg">
+               <path
+                  d="M11.8999 21.2547C13.0999 22.4547 14.2999 23.4545 15.3999 24.5545C16.5999 25.7545 16.5999 27.0549 15.6999 27.9549C14.7999 28.8549 13.5 28.7545 12.3 27.5545C11.2 26.4545 10.0999 25.3545 8.89993 24.0545C7.69993 25.2545 6.59991 26.3549 5.49991 27.4549C4.29991 28.6549 2.99988 28.8549 2.09988 27.9549C1.09988 27.0549 1.09993 25.6548 2.39993 24.3548C3.49993 23.2548 4.59996 22.2546 5.79996 21.1546C4.49996 20.5546 3.39993 20.1545 2.39993 19.5545C0.999932 18.7545 0.499859 17.4548 1.19986 16.3548C1.89986 15.2548 3.09991 14.9547 4.49991 15.7547C7.49991 17.3547 10.3999 17.3547 13.3999 15.7547C14.8999 14.9547 16.1 15.2549 16.8 16.4549C17.4 17.6549 16.9999 18.8546 15.4999 19.6546C14.2999 20.2546 13.1999 20.6547 11.8999 21.2547Z"
+                  fill="#292F3E" />
+               <path
+                  d="M8.79982 15.2549C4.89982 15.2549 1.59977 12.0547 1.49977 8.05469C1.39977 4.15469 4.69975 0.854883 8.59975 0.754883C12.5997 0.754883 15.9998 3.95508 15.8998 7.95508C15.9998 12.0551 12.6998 15.2549 8.79982 15.2549ZM11.4998 8.25488C11.5998 6.65488 10.3998 5.35488 8.79982 5.25488C7.29982 5.15488 6.09977 6.25488 5.99977 7.75488C5.89977 9.35488 6.99975 10.755 8.59975 10.855C10.0997 10.955 11.3998 9.85488 11.4998 8.25488Z"
+                  fill="#292F3E" />
+            </svg>
+         </a>
+         <a href="#" class="footer__logo">
+            <svg width="30" class="block-img" height="18" viewBox="0 0 30 18" fill="none"
+               xmlns="http://www.w3.org/2000/svg">
+               <path
+                  d="M10.2999 1.55449C10.6999 1.35449 11.1999 0.954785 11.7999 0.854785C13.2999 0.754785 14.7999 0.754785 16.2999 0.854785C17.2999 0.854785 17.7999 1.55449 17.7999 2.55449C17.7999 3.95449 17.6999 5.45478 17.7999 6.85478C17.7999 7.45478 17.9998 8.05449 18.1998 9.05449C18.9998 8.35449 19.4999 7.95488 19.8999 7.45488C20.8999 5.85488 21.7998 4.15488 22.5998 2.45488C22.9998 1.75488 23.3999 1.35479 24.2999 1.35479C25.6999 1.35479 27.0999 1.35479 28.4999 1.35479C29.7999 1.35479 30.1998 1.95449 29.5998 3.05449C28.7998 4.55449 27.6998 6.05488 26.6998 7.45488C26.3998 7.95488 26.0998 8.35469 25.6998 8.75469C24.9998 9.65469 24.9999 10.3547 25.8999 11.2547C27.0999 12.3547 28.1998 13.5548 29.1998 14.8548C29.4998 15.2548 29.7998 16.1545 29.5998 16.5545C29.3998 16.9545 28.5999 17.0546 27.9999 17.1546C27.6999 17.2546 27.2999 17.1547 26.8999 17.2547C24.2999 17.6547 22.0999 17.0546 20.4999 14.6546C20.2999 14.3546 19.9998 14.1548 19.6998 13.8548C18.9998 13.2548 18.3999 13.3547 17.9999 14.2547V14.3548C17.6999 15.2548 17.5998 16.7548 17.0998 16.8548C15.7998 17.1548 14.2999 17.1548 12.9999 16.8548C10.6999 16.4548 8.7999 15.1549 7.2999 13.4549C4.4999 10.2549 2.69988 6.55469 0.899878 2.75469C0.499878 1.75469 0.799878 1.25469 1.89988 1.25469H1.99985C4.89985 0.854687 7.2998 1.25459 8.1998 4.65459C8.4998 5.85459 9.59988 6.95449 10.3999 8.05449C10.5999 8.35449 10.9999 8.55449 11.2999 8.55449C11.4999 8.45449 11.7999 8.05469 11.7999 7.75469C11.8999 6.25469 11.9999 4.75479 11.7999 3.35479C11.6999 2.75479 10.8999 2.25449 10.2999 1.55449Z"
+                  fill="#292F3E" />
+            </svg>
+         </a>
+      </div>
+   </div>
+</footer>
+      <div id="signin" class="signin popup">
+   <div class="popup__body">
+      <div class="popup__content">
+         <div class="close close__popup">
+            <span class="close__line"></span>
+            <span class="close__line"></span>
+         </div>
+         <div class="title__line">
+            <h2 class="title"><a href="#signup" class="popup__link">Регистрация</a>/<span class="bold">ВОЙТИ</span></h2>
+         </div>
+         <div class="signin__content">
+            <div class="signin__content__left">
+               <div class="input__conteiner">
+                  <input type="email" class="input" placeholder="Адрес электронной почты">
+               </div>
+               <div class="input__conteiner">
+                  <input type="password" class="input" placeholder="Пароль">
+               </div>
+               <a href="#" class="signin__link">Забыли пароль?</a>
+               <button class="signin__button">Подписаться на нашу рассылку</button>
+            </div>
+            <div class="signin__content__right">
+               <span class="signin__content__right__text-about">запрос сертификатов*<br>о прохождении курса</span>
+               <span class="signin__content__right__text-about">отсылка прайс-листа*</span>
+               <span class="signin__content__right__text-main">записаться на курс*</span>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+      <div id="signup" class="signup popup">
+   <div class="popup__body">
+      <div class="popup__content">
+         <div class="close close__popup">
+            <span class="close__line"></span>
+            <span class="close__line"></span>
+         </div>
+         <div class="title__line">
+            <h2 class="title"><span class="bold">Регистрация/</span><a href="#signin" class="popup__link">ВОЙТИ</a></h2>
+         </div>
+         <div class="signup__container">
+            <div class="name__container">
+               <span class="name__container__text">ИМЯ</span>
+               <div class="input__conteiner">
+                  <input type="text" class="input" placeholder="Ваше имя">
+               </div>
+            </div>
+            <div class="name__container">
+               <span class="name__container__text">ФАМИЛИЯ</span>
+               <div class="input__conteiner">
+                  <input type="text" class="input" placeholder="Ваша фамилия">
+               </div>
+            </div>
+            <div class="name__container">
+               <span class="name__container__text">ЛОГИН</span>
+               <div class="input__conteiner">
+                  <input type="text" class="input" placeholder="Ваш логин">
+               </div>
+            </div>
+            <div class="name__container">
+               <span class="name__container__text">ПАРОЛЬ</span>
+               <div class="input__conteiner">
+                  <input type="password" class="input" placeholder="Ваш пароль">
+               </div>
+            </div>
+            <div class="name__container">
+               <span class="name__container__text">ПОВТОР ПАРОЛЯ</span>
+               <div class="input__conteiner">
+                  <input type="password" class="input" placeholder="Повторите ваш пароль">
+               </div>
+            </div>
+            <div class="name__container">
+               <span class="name__container__text">E-MAIL</span>
+               <div class="input__conteiner">
+                  <input type="email" class="input" placeholder="Ваш e-mail">
+               </div>
+            </div>
+            <div class="block__check">
+               <input id="signupCheck" type="checkbox" class="check__input">
+               <label for="signupCheck" class="check__label">Подписаться на нашу рассылку?</label>
+            </div>
+            <button class="signin__button">ЗаРЕГИСТРИРОВАТЬСЯ</button>
+         </div>
+      </div>
+   </div>
+</div>
+   </div>
+   <script src="js/app.min.js?_v=20221004235157"></script>
+</body>
+
+</html>
